@@ -1,0 +1,25 @@
+.section-description {
+
+@include font (400, 16px, 26px);
+  letter-spacing: 0.02em;
+
+    @media screen and (min-width: 1200px) {
+      @include font (400, 18px, 30px);
+    }
+}
+
+.section-description-theme-dark {
+  color: var(--primary-text-color-theme-dark);
+}
+
+.section-description-theme-light {
+  color: var(--primary-text-color-theme-light);
+}
+
+.hero-section-description {
+  @include font (400, 16px, 26px);
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+
+  margin-top: 20px;  
+}

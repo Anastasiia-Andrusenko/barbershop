@@ -1,0 +1,24 @@
+.title {
+  font-family: var(--secondary-font-family);
+
+  @media screen and (max-width: 767px) {
+    @include font (700, 28px, 33px);
+    letter-spacing: 0.05em;
+  }
+}
+
+.title-theme-dark {
+  margin-bottom: 44px;
+  color: var(--secondary-text-color-theme-dark);
+}
+
+.title-theme-light {
+  margin-bottom: 20px;
+  color: var(--secondary-text-color-theme-light);
+}
+
+.main-title {
+  @include font (700, 48px, 56px);
+    letter-spacing: 0.05em;
+  color: var(--secondary-text-color-theme-dark);  
+}

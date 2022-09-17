@@ -1,0 +1,6 @@
+.about-text {
+  @include font (400, 14px, 26px);
+  color: var(--primary-text-color-theme-light);
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
